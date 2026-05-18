@@ -1,0 +1,15 @@
+{
+  "name": "futurmix-quickstart-nodejs",
+  "version": "1.0.0",
+  "description": "FuturMix quickstart examples for Node.js",
+  "type": "module",
+  "scripts": {
+    "chat": "node basic_chat.js",
+    "stream": "node streaming.js",
+    "compare": "node multi_model.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "license": "MIT"
+}
