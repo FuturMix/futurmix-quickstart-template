@@ -2,9 +2,9 @@
 
 [![Try Free](https://img.shields.io/badge/Try%20Free-FuturMix.ai-blue?style=for-the-badge)](https://futurmix.ai/register?utm_source=github&utm_medium=quickstart)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible-black?logo=openai)](https://futurmix.ai)
+[![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible-black?logo=openai)](https://futurmix.ai?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template)
 
-**One API, 22+ models, built-in discounts.** Access Claude, GPT, Gemini, and DeepSeek through a single OpenAI-compatible endpoint at [futurmix.ai](https://futurmix.ai).
+**One API, 22+ models, built-in discounts.** Access Claude, GPT, Gemini, and DeepSeek through a single OpenAI-compatible endpoint at [futurmix.ai](https://futurmix.ai?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template).
 
 ---
 
@@ -158,7 +158,7 @@ See [`examples/anthropic/`](examples/anthropic/) for complete working examples.
 | **DeepSeek** | `deepseek-chat` | Market rate | |
 | **DeepSeek** | `deepseek-reasoner` | Market rate | |
 
-> **22+ models available.** See the full list at [futurmix.ai/models](https://futurmix.ai/models).
+> **22+ models available.** See the full list at [futurmix.ai/models](https://futurmix.ai/models?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template).
 
 ---
 
@@ -212,8 +212,8 @@ docker run -e OPENAI_API_KEY=$FUTURMIX_API_KEY \
 
 - [FuturMix Dashboard](https://futurmix.ai?utm_source=github&utm_medium=quickstart)
 - [Sign Up (Free)](https://futurmix.ai/register?utm_source=github&utm_medium=quickstart)
-- [API Documentation](https://futurmix.ai/docs)
-- [Model List](https://futurmix.ai/models)
+- [API Documentation](https://futurmix.ai/docs?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template)
+- [Model List](https://futurmix.ai/models?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template)
 
 ---
 
