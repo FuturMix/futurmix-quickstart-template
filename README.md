@@ -6,6 +6,10 @@
 
 **One API, 22+ models, built-in discounts.** Access Claude, GPT, Gemini, and DeepSeek through a single OpenAI-compatible endpoint at [futurmix.ai](https://futurmix.ai?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template).
 
+![Price Comparison](assets/readme-price-strip.png)
+
+<sub>Prices per 1M tokens (input / output), source: <a href="https://futurmix.ai/pricing?utm_source=github&utm_medium=repo&utm_campaign=futurmix-quickstart-template">futurmix.ai/pricing</a>, checked 2026-05-19.</sub>
+
 ---
 
 ## Quick Setup (3 Steps)

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <!--
+    README Price Strip v2
+    Prices from https://futurmix.ai/api/pricing, checked 2026-05-19
+    4 models, 3 providers. All ratios verified against live API.
+  -->
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; }
+      .mono { font-family: 'SF Mono', 'Menlo', 'Monaco', monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="260" rx="10" fill="#FAFAF8"/>
+  <rect width="1200" height="260" rx="10" fill="none" stroke="#D8D4CE" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="600" y="30" text-anchor="middle" font-size="13" font-weight="600" fill="#5A5650" letter-spacing="1.2">LOWER MODEL ACCESS COST FOR AI AGENT TEAMS</text>
+
+  <!-- Divider under header -->
+  <line x1="36" y1="46" x2="840" y2="46" stroke="#C8C3BB" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="130" y="62" text-anchor="middle" font-size="10" font-weight="600" fill="#8C857A" letter-spacing="0.8">MODEL</text>
+  <text x="350" y="62" text-anchor="middle" font-size="10" font-weight="600" fill="#8C857A" letter-spacing="0.8">PROVIDER PRICE</text>
+  <text x="570" y="62" text-anchor="middle" font-size="10" font-weight="600" fill="#8C857A" letter-spacing="0.8">FUTURMIX PRICE</text>
+  <text x="770" y="62" text-anchor="middle" font-size="10" font-weight="600" fill="#8C857A" letter-spacing="0.8">SAVINGS</text>
+
+  <!-- Row 1: Claude Opus 4.6 — ratio=2.5, comp=5, discount=0.9 -->
+  <circle cx="50" cy="92" r="4" fill="#D97757"/>
+  <text x="62" y="96" font-size="12.5" font-weight="600" fill="#2D2B28">Claude Opus 4.6</text>
+  <text x="350" y="96" text-anchor="middle" font-size="12.5" fill="#5A5650">$5.00 / $25.00</text>
+  <text x="570" y="96" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2D2B28">$4.50 / $22.50</text>
+  <rect x="728" y="81" width="84" height="22" rx="11" fill="#D97757" opacity="0.12"/>
+  <text x="770" y="96" text-anchor="middle" font-size="11" font-weight="600" fill="#D97757">Save 10%</text>
+
+  <!-- Row 2: Claude Sonnet 4.6 — ratio=1.5, comp=5, discount=0.9 -->
+  <circle cx="50" cy="128" r="4" fill="#D97757"/>
+  <text x="62" y="132" font-size="12.5" font-weight="600" fill="#2D2B28">Claude Sonnet 4.6</text>
+  <text x="350" y="132" text-anchor="middle" font-size="12.5" fill="#5A5650">$3.00 / $15.00</text>
+  <text x="570" y="132" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2D2B28">$2.70 / $13.50</text>
+  <rect x="728" y="117" width="84" height="22" rx="11" fill="#D97757" opacity="0.12"/>
+  <text x="770" y="132" text-anchor="middle" font-size="11" font-weight="600" fill="#D97757">Save 10%</text>
+
+  <!-- Row 3: GPT-5.5 — ratio=2.5, comp=6, discount=0.7 -->
+  <circle cx="50" cy="164" r="4" fill="#10A37F"/>
+  <text x="62" y="168" font-size="12.5" font-weight="600" fill="#2D2B28">GPT-5.5</text>
+  <text x="350" y="168" text-anchor="middle" font-size="12.5" fill="#5A5650">$5.00 / $30.00</text>
+  <text x="570" y="168" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2D2B28">$3.50 / $21.00</text>
+  <rect x="728" y="153" width="84" height="22" rx="11" fill="#10A37F" opacity="0.12"/>
+  <text x="770" y="168" text-anchor="middle" font-size="11" font-weight="600" fill="#10A37F">Save 30%</text>
+
+  <!-- Row 4: Gemini 2.5 Pro — ratio=0.625, comp=8, discount=0.8 -->
+  <circle cx="50" cy="200" r="4" fill="#4285F4"/>
+  <text x="62" y="204" font-size="12.5" font-weight="600" fill="#2D2B28">Gemini 2.5 Pro</text>
+  <text x="350" y="204" text-anchor="middle" font-size="12.5" fill="#5A5650">$1.25 / $10.00</text>
+  <text x="570" y="204" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2D2B28">$1.00 / $8.00</text>
+  <rect x="728" y="189" width="84" height="22" rx="11" fill="#4285F4" opacity="0.12"/>
+  <text x="770" y="204" text-anchor="middle" font-size="11" font-weight="600" fill="#4285F4">Save 20%</text>
+
+  <!-- Bottom divider -->
+  <line x1="36" y1="224" x2="840" y2="224" stroke="#C8C3BB" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="36" y="244" font-size="10" fill="#8C857A">Prices per 1M tokens (input / output).</text>
+  <text x="270" y="244" font-size="10" fill="#D97757" font-weight="500">futurmix.ai/pricing</text>
+
+  <!-- Right CTA card -->
+  <rect x="880" y="36" width="280" height="210" rx="10" fill="#F0EDEA" stroke="#D8D4CE" stroke-width="1"/>
+
+  <text x="1020" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#2D2B28">Cost control for</text>
+  <text x="1020" y="92" text-anchor="middle" font-size="13" font-weight="600" fill="#2D2B28">AI agent teams</text>
+
+  <line x1="910" y1="112" x2="1130" y2="112" stroke="#D8D4CE" stroke-width="1"/>
+
+  <text x="1020" y="136" text-anchor="middle" font-size="11" fill="#5A5650">Compare provider price</text>
+  <text x="1020" y="154" text-anchor="middle" font-size="11" fill="#5A5650">vs FuturMix price before</text>
+  <text x="1020" y="172" text-anchor="middle" font-size="11" fill="#5A5650">you route workloads</text>
+
+  <!-- Provider color accents -->
+  <rect x="964" y="200" width="40" height="4" rx="2" fill="#D97757"/>
+  <rect x="1012" y="200" width="40" height="4" rx="2" fill="#10A37F"/>
+  <rect x="1060" y="200" width="40" height="4" rx="2" fill="#4285F4"/>
+</svg>
